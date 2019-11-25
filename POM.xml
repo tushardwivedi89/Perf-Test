@@ -26,9 +26,9 @@
                      </testFilesIncluded>
                      <testResultsTimestamp>false</testResultsTimestamp>
                      <propertiesUser>
-                        <Threadcount>1</Threadcount>
-                        <Loopcount>1</Loopcount>
-                        <Rampup>1</Rampup>
+                        <Threadcount>${Threadcount}</Threadcount>
+                        <Loopcount>${Loopcount}</Loopcount>
+                        <Rampup>${Rampup}</Rampup>
                      </propertiesUser>
                   </configuration>
                </execution>
