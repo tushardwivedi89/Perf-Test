@@ -21,9 +21,7 @@
                      <goal>jmeter</goal>
                   </goals>
                   <configuration>
-                     <testFilesIncluded>
-                        <jMeterTestFile>Jmeter_Script.jmx</jMeterTestFile>
-                     </testFilesIncluded>
+                   <testFilesDirectory>${project.basedir}/src/test/jmeter</testFilesDirectory>
                      <testResultsTimestamp>false</testResultsTimestamp>
                      <propertiesUser>
                         <Threadcount>${Threadcount}</Threadcount>
